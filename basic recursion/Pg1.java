@@ -10,16 +10,13 @@ public class Pg1{
         
     }
 }
-
 class Solution{
     public void printname(String name ,int count, int N){
         if(count == N)
             return;
 
         System.out.println(name);
-
-        printname(name, count+1, N);
-        
+        printname(name, count+1, N);       
     }
 
 }

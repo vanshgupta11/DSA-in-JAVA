@@ -12,7 +12,6 @@ class Solution{
             return;
 
         System.out.println(current);
-
         printNumber(current -1);
     }
 }
