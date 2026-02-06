@@ -11,6 +11,7 @@ public class Fibonachi {
             b = b + a;
             a = temp ;
             count++;
+            System.out.println(b);
         }
         System.out.println(b);
     }
