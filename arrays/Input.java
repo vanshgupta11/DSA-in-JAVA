@@ -15,6 +15,7 @@ public class Input {
             for(int col= 0 ;col<arr[row].length;col++){
                 System.out.print(arr[row][col]);
             }
+            System.out.println("");
         }
     }
 }
