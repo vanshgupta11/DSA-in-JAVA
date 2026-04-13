@@ -13,7 +13,7 @@ public class CheckPalin {
     StringBuilder sb1 = new StringBuilder();
     StringBuilder sb2 = new StringBuilder();
 
-    for(int i = 0; i < n/2; i++){
+    for(int i = 1; i < n/2; i++){
         sb1.append(s.charAt(i));
     }
 
