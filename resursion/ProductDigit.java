@@ -1,6 +1,6 @@
 public class ProductDigit {
      public static void main(String[] args) {
-        System.out.println(Sumdigit(1234));
+        System.out.println(Sumdigit(134));
     }
     static int Sumdigit(int n){
         if(n == 0){
