@@ -4,16 +4,16 @@ public class Ls {
         int[] arr ={1,5,3,4,5};
         System.out.println(ls(arr,0,4));
     }
-    static int ls(int[] arr , int index,int target){
-        if(index == arr.length -1 && arr[index] != target){
+    static int ls(int[] arr , int i,int target){
+        if(i == arr.length -1 && arr[i] != target){
             return -1;
         }
 
-        if(arr[index] == target){
-            return index;
+        if(arr[i] == target){
+            return i;
         }
 
-        return ls(arr,index+1,target);
+        return ls(arr,i+1,target);
     }
 }
 
