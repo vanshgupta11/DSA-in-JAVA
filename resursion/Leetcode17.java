@@ -1,6 +1,6 @@
 public class Leetcode17 {
     public static void main(String[] args) {
-        pad("","12");
+        pad("","567");
     }
     static void pad(String p,String up){
         if(up.isEmpty()){
@@ -11,7 +11,7 @@ public class Leetcode17 {
         for(int  i = (digit -1)*3 ; i < digit*3;i++){
             char ch = (char)('a' + i);
             pad(p + ch , up.substring(1));
-            int count++;
+            
         }
     }
 }
