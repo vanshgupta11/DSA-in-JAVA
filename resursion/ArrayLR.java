@@ -10,7 +10,8 @@ public class ArrayLR {
         if(i>= n){
             return;
         }
-        System.out.println(arr[i]);
         leftToRight(arr, n, i +1);
+        System.out.println(arr[i]);
+        
     }
 }
